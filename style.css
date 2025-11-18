@@ -1,0 +1,138 @@
+/* Basic page styles */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  margin: 0;
+  background: radial-gradient(circle at top, #3d1859, #090b1f);
+  color: #f8f8ff;
+  line-height: 1.6;
+}
+
+/* Header */
+.page-header {
+  text-align: center;
+  padding: 2.5rem 1rem 1.5rem;
+  background: linear-gradient(to right, #5c2eb8, #9b1fa8);
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.5);
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+  letter-spacing: 0.05em;
+}
+
+.tagline {
+  margin-top: 0.5rem;
+  font-size: 1.05rem;
+  opacity: 0.9;
+}
+
+/* Navigation */
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  background: #15172b;
+  padding: 0.75rem 1rem;
+}
+
+.main-nav a {
+  color: #f8f8ff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: background 0.2s, transform 0.1s;
+}
+
+.main-nav a:hover {
+  background: #5c2eb8;
+  transform: translateY(-1px);
+}
+
+/* Layout for main content */
+.content {
+  max-width: 1000px;
+  margin: 1.5rem auto 2.5rem;
+  padding: 0 1rem;
+}
+
+/* Reusable card style */
+.card {
+  background: rgba(12, 13, 35, 0.95);
+  border-radius: 14px;
+  padding: 1.4rem 1.6rem 1.3rem;
+  margin-bottom: 1.4rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  border-left: 4px solid #9b1fa8;
+  padding-left: 0.6rem;
+}
+
+/* Centre the first big image */
+.center-image {
+  display: block;          /* makes it behave like a block element */
+  margin: 1rem auto;       /* auto left/right centers it */
+  max-width: 70%;          /* responsive: scales with screen */
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Other images */
+.club-image {
+  display: block;
+  max-width: 60%;
+  height: auto;
+  margin: 1rem 0;
+  border-radius: 10px;
+}
+
+/* Matchday list */
+.matchday-list {
+  padding-left: 1.2rem;
+}
+
+.matchday-list li {
+  margin-bottom: 0.4rem;
+}
+
+/* Player grid for the last section */
+.player-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.player-card {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+  padding: 0.6rem;
+}
+
+.player-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.player-card figcaption {
+  font-size: 0.9rem;
+  margin-top: 0.4rem;
+}
+
+/* Footer */
+.page-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #090b1f;
+  font-size: 0.85rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
