@@ -14,7 +14,7 @@ The webpage reflects my personal interest in the Premier League while showcasing
 
 ### 🌍 Live Website
 The website is deployed using GitHub Pages.  
-Link: *(will appear after deployment)*
+Link: *(https://richiealx.github.io/frimpong-premier-league-website/)*
 
 ### 📂 Project Structure
 - `index.html` – Main webpage  
